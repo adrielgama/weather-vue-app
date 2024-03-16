@@ -10,7 +10,7 @@ import { Search } from 'lucide-vue-next'
         <input
           type="text"
           placeholder="Enter location"
-          class="py-2 px-4 rounded-full bg-neutral-200 w-full font-medium text-neutral-600"
+          class="py-2 px-4 rounded-full bg-neutral-200 w-full text-sm font-medium placeholder:font-normal placeholder:text-neutral-400 text-neutral-600"
         />
         <Search :size="20" class="absolute right-4 top-1/2 -translate-y-1/2 text-blue-600" />
       </div>
